@@ -14,11 +14,11 @@ function createAndAddVariant(addVariant, e, name, useClass, mediaQuery = "") {
 }
 
 module.exports = plugin(function ({ addVariant, e, theme, config }) {
-  let useClass = false;
+  let useClass = true;
   let configValue = config("accessibleVariants");
-  if (configValue == "media" || configValue == undefined) {
+  if (configValue == "media") {
     useClass = false;
-  } else if (configValue == "selector") {
+  } else if (configValue == "selector" || configValue == undefined) {
     useClass = true;
   } else {
     throw new Error(
