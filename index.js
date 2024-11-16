@@ -40,18 +40,4 @@ module.exports = plugin(function ({ addVariant, e, theme, config }) {
     useClass,
     "@media (prefers-contrast: more)",
   );
-  createAndAddVariant(
-    addVariant,
-    e,
-    "reduce-motion",
-    useClass,
-    "@media (prefers-reduced-motion)",
-  );
-  createAndAddVariant(
-    addVariant,
-    e,
-    "reduce-transparency",
-    useClass,
-    "@media (prefers-reduced-transparency)",
-  );
 });
