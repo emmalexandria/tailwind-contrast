@@ -1,8 +1,11 @@
 {
-  "name": "tailwindcss-contrast",
+  "name": "tailwindcss-accessible-variants",
   "version": "1.0.0",
   "description": "TailwindCSS plugin implementing high and low contrast variants which work based on class.",
   "main": "index.js",
+  "files": [
+    "src/index.js"
+  ],
   "keywords": [
     "tailwindcss",
     "plugin",
@@ -12,13 +15,13 @@
     "low-contrast",
     "media-query",
     "custom-variants"
-  ],  
-  "author":"Emma Alexandria",
+  ],
+  "author": "Emma Alexandria",
   "license": "MIT",
-  "homepage": "https://github.com/emmalexandria/tailwind-contrast",
+  "homepage": "https://github.com/emmalexandria/tailwindcss-accessible-variants",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/emmalexandria/tailwindcss-contrast.git"
+    "url": "git+https://github.com/emmalexandria/tailwindcss-accessible-variants.git"
   },
   "devDependencies": {
     "tailwindcss": "^3.0.0"
