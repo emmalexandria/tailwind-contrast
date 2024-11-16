@@ -15,6 +15,10 @@
   ],  
   "author":"Emma Alexandria",
   "license": "MIT",
+  "homepage": "https://github.com/emmalexandria/tailwind-contrast",
+  "repository": {
+
+  },
   "devDependencies": {
     "tailwindcss": "^3.4.15"
   }
