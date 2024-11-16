@@ -17,9 +17,10 @@
   "license": "MIT",
   "homepage": "https://github.com/emmalexandria/tailwind-contrast",
   "repository": {
-
+    "type": "git",
+    "url": "git+https://github.com/emmalexandria/tailwindcss-contrast.git"
   },
   "devDependencies": {
-    "tailwindcss": "^3.4.15"
+    "tailwindcss": "^3.0.0"
   }
 }
