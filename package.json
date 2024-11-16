@@ -1,0 +1,21 @@
+{
+  "name": "tailwindcss-contrast",
+  "version": "1.0.0",
+  "description": "TailwindCSS plugin implementing high and low contrast variants which work based on class.",
+  "main": "index.js",
+  "keywords": [
+    "tailwindcss",
+    "plugin",
+    "tailwind",
+    "contrast",
+    "high-contrast",
+    "low-contrast",
+    "media-query",
+    "custom-variants"
+  ],  
+  "author":"Emma Alexandria",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.4.15"
+  }
+}
