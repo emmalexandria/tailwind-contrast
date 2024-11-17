@@ -13,7 +13,7 @@ function createAndAddVariant(addVariant, e, name, useClass, mediaQuery = "") {
   }
 }
 
-module.exports = plugin(function({ addVariant, e, theme, config }) {
+export default plugin(function({ addVariant, e, theme, config }) {
   let useClass = true;
   let configValue = config("accessibleVariants");
   if (configValue == "media") {
