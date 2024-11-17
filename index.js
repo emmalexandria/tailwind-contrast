@@ -5,7 +5,7 @@ function createAndAddVariant(addVariant, e, name, useClass, mediaQuery = "") {
     addVariant(name, ({ modifySelectors, separator }) => {
       modifySelectors(({ className }) => {
         const childSelector = e(`${name}${separator}${className}`);
-        return `.${name} .${lowContrast}`;
+        return `.${name} .${childSelector}`;
       });
     });
   } else {
@@ -13,7 +13,7 @@ function createAndAddVariant(addVariant, e, name, useClass, mediaQuery = "") {
   }
 }
 
-module.exports = plugin(function ({ addVariant, e, theme, config }) {
+module.exports = plugin(function({ addVariant, e, theme, config }) {
   let useClass = true;
   let configValue = config("accessibleVariants");
   if (configValue == "media") {
