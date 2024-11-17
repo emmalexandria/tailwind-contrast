@@ -1,6 +1,6 @@
 {
   "name": "tailwindcss-accessible-variants",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "TailwindCSS plugin implementing high and low contrast variants which work based on class.",
   "main": "index.js",
   "type": "module",
